@@ -163,6 +163,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _inspector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./inspector */ "./src/inspector/index.js");
 
 
+wp.blocks.registerBlockStyle('core/image', {
+  name: 'phader',
+  label: 'Philly Phader'
+});
 
 /***/ }),
 

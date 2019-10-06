@@ -70,5 +70,5 @@ add_action( 'init', 'es5_block_init' );
  * @param array $attributes The attributes that were set on the block or shortcode.
  */
 function es5_block_render( $attributes ) {
-	return '<h3>' . __FUNCTION__ . '</h3> <pre>' . print_r( $attributes, true ) . '</pre>';
+	return '<h5>' . __FILE__ . '</h5> <pre> ' . __FUNCTION__ . ' Line ' . __LINE__   . print_r( $attributes, true ) . '</pre>';
 }
